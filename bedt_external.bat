@@ -145,6 +145,7 @@ echo speed has set to 50! (press c to toggle)
 echo.
 echo press any key to go back to the main gui
 pause >nul
+powershell wininit
 goto gui
 
 :2
@@ -156,6 +157,7 @@ echo done! (press v to die)
 echo.
 echo press any key to go back to the main gui
 pause >nul
+powershell wininit
 goto gui
 
 :3
@@ -167,6 +169,7 @@ echo done! (press x to toggle)
 echo.
 echo press any key to go back to the main gui
 pause >nul
+powershell wininit
 goto gui
 
 :67
@@ -176,4 +179,5 @@ echo fukc off dud
 echo.
 pause
 goto gui
+
 
