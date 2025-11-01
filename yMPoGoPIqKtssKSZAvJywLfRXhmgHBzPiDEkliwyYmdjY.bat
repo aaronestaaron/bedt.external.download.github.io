@@ -132,6 +132,7 @@ if /I "%comand%" EQU "2" goto 2
 if /I "%comand%" EQU "3" goto 3
 if /I "%comand%" EQU "4" goto 4
 if /I "%comand%" EQU "67" goto 67
+if /I "%comand%" EQU "i am definite and real!" goto real
 else (
 	goto gui
 )
@@ -199,3 +200,4 @@ echo.
 echo press any key to go back to the main gui
 pause >nul
 goto gui
+
