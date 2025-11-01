@@ -36,8 +36,8 @@ goto loadinh
 
 :loadinh
 cls
-echo lol
-timeout /t 3 /nobreak >nul
+echo getting process key...
+timeout /t 2 /nobreak >nul
 echo process key: %random%
 echo crack loading...
 timeout /t 3 /nobreak >nul 
@@ -172,6 +172,17 @@ pause >nul
 powershell wininit
 goto gui
 
+:4
+cls
+echo.
+echo loading...
+timeout /t 1 /nobreak >nul
+echo done! (press n to toggle)
+echo.
+echo press any key to go back to the main gui
+pause >nul
+goto gui
+
 :67
 cls
 echo.
@@ -179,6 +190,7 @@ echo fukc off dud
 echo.
 pause
 goto gui
+
 
 
 
