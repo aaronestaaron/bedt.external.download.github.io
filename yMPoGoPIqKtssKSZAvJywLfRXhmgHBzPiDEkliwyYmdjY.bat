@@ -191,6 +191,11 @@ echo.
 pause
 goto gui
 
-
-
-
+:real
+cls
+echo.
+echo nice!
+echo.
+echo press any key to go back to the main gui
+pause >nul
+goto gui
